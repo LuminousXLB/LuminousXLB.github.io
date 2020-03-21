@@ -7,4 +7,4 @@ cover: cover_letter.tex
 	xelatex cover_letter.tex
 
 clean:
-	rm *.aux *.log *.out *.pdf
+	rm *.aux *.log *.out *.synctex.gz *.pdf
