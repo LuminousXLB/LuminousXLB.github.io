@@ -1,9 +1,9 @@
-all: resume
+all: letter
 
 resume: resume_cv.tex
 	xelatex resume_cv.tex
 
-cover: cover_letter.tex
+letter: cover_letter.tex
 	xelatex cover_letter.tex
 
 clean:

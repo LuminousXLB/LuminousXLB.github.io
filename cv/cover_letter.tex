@@ -32,6 +32,7 @@
 
 \fontdir[fonts/] % Specify the location of the included fonts
 
+
 % Color for highlights
 \colorlet{awesome}{awesome-orange} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
 %\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
@@ -73,6 +74,26 @@
 %----------------------------------------------------------------------------------------
 
 \begin{document}
+
+\newfontfamily\custombodyfont[
+  Path=./fonts/,
+  UprightFont=*-Regular,
+  ItalicFont=*-Italic,
+  BoldFont=*-Bold,
+  BoldItalicFont=*-BoldItalic,
+]{Merriweather}
+
+\renewcommand{\bodyfont}{\custombodyfont}
+
+\newfontfamily\custombodyfontlight[
+  Path=./fonts/,
+  UprightFont=*-Light,
+  ItalicFont=*-LightItalic,
+  BoldFont=*-Regular,
+  BoldItalicFont=*-Italic,
+]{Merriweather}
+
+\renewcommand{\bodyfontlight}{\custombodyfontlight}
 
 \makecvheader % Print the header
 
