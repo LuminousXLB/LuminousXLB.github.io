@@ -75,29 +75,13 @@
 
 \begin{document}
 
-\newfontfamily\custombodyfont[
-    Path=./fonts/,
-    UprightFont=*-Regular,
-    ItalicFont=*-Italic,
-    BoldFont=*-Bold,
-    BoldItalicFont=*-BoldItalic,
-]{Merriweather}
-
-% \renewcommand{\bodyfont}{\custombodyfont}
-
-\newfontfamily\custombodyfontlight[
-    Path=./fonts/,
-    UprightFont=*-Light,
-    ItalicFont=*-LightItalic,
-    BoldFont=*-Regular,
-    BoldItalicFont=*-Italic,
-]{Merriweather}
-
-\renewcommand{\bodyfontlight}{\custombodyfontlight}
+\renewcommand{\bodyfontlight}{\sourcesanspro}
 
 \makecvheader % Print the header
 
 % \makelettertitle % Print the title
+
+\vspace{1em}
 
 %----------------------------------------------------------------------------------------
 %	LETTER CONTENT
@@ -105,11 +89,98 @@
 
 \begin{cvletter}
 
-    \input{cv-sections/11-aboutme.tex}
-    \input{cv-sections/12-whythisprogram.tex}
-    \input{cv-sections/13-academicexperience.tex}
-    \input{cv-sections/14-futureplan.tex}
-    \input{cv-sections/15-last.tex}
+
+    I am SHEN Jiamin, studying for my Master's Degree at the National University of Singapore, majoring in Infocomm Security.
+    Before I was admitted to the MComp Programme, I graduated from Shanghai Jiao Tong University and achieved my Bachelor's Degree in Information Security in June 2020.
+    In the fall of 2019, I attended the Non-Graduating Non-Exchange Programme held by the School of Computing, NUS.
+    I want to pursue a PhD Degree in Infocomm Security at NUS.
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \lettersection{Research Interest}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    My research interest is in Computer Security, especially in Confidential Computing currently.
+
+    In the context of outsourced computing, confidential computing focuses on isolating data in hardware-enforced secure enclaves.
+    It is based on Trusted Execution Environment, such as Intel Software Guard Extensions (Intel SGX).
+    By leveraging dedicated hardware or hardware extension, confidential computing can provide security guarantees regarding the confidentiality of sensitive data and the integrity of computing results.
+    Besides the basic security principles, the emerging technology can also improve current systems in terms of security or performance.
+
+    Some existing work has concentrated on the security problems of TEE itself.
+    There are classical vulnerabilities transferred to the TEE environment, such as memory error and corresponding defences.
+    There are side-channel problems, such as privacy leakage due to access pattern, that can be analogue to similar problems in cloud storage.
+    There are also new challenges against TEE itself, such as the security problem about the attestation mechanism.
+
+    Others have built some conceptual or practical systems based on the security guarantee provided by TEE.
+    For instance, researchers have designed a bitcoin wallet that preserves better privacy, secure resource accounting service on computation platforms, and trusted network middleboxes.
+    TEE has been included in the building of blockchain in the Microsoft Confidential Consortium Framework as well.
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \lettersection{Knowledge Background}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    I learned how to program in C++ as my first step into programming.
+    After that, I taught myself other programming languages such as Python and JavaScript and used them to automate some daily jobs, such as synchronizing personal calendar with timetable, classifying PDF pages and monitoring an SMS platform.
+    I also participated in a web project aiming to provide an office automation system for students' network managers.
+    During these projects, I improved my programming skills and learned how to build applications based on the need of users and how to collaborate with others.
+
+    I learned essential topics in security, including System Security, Software Security, Web Security, etc.
+    I have also learned to analyze problems in the formal perspective in Cryptography Theory and Practice and Formal Methods in Software Engineering.
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \lettersection{Previous Work}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    I joined the \textit{Lab of Cryptography and Computer Security} in SJTU in September 2018 as a research intern. I acquired my first experience with cryptography, network essentials and basic concepts of Bitcoin and Blockchain.
+    By giving and listening to reports, I learned how to organize a presentation.
+    Under the professor's guidance, I completed a project independently to integrate SM3, a message digest algorithm, into a fork of OpenSSL, which led me to a deeper exploration of OpenSSL.
+    I also helped build a proof-of-concept project, in which we improved consensus efficiency by sharding and two-layer consensus.
+
+    As part of the NGNE Programme, I take an internship in \textit{National Cybersecurity R\&D Lab} in the fall of 2019, where I was supervised by Assoc. Prof. Chang Ee-Chien.
+    In that semester, I learned Intel Software Guard Extension (SGX) and proposed a method of mutual attestation between enclaves which significantly reduced the overhead on communication.
+    And I successfully migrated an open-source implementation of Raft into SGX, which utilized the mutual attestation protocol in a multi-node network.
+
+    The Final Year Project that won me the Bachelor's degree continues my interest in Blockchain and SGX.
+    Advised by Assoc. Prof. Fan Lei, I designed a new smart contract system supporting secure multiparty computation utilizing the consistency provided by blockchain and the security guarantee provided by SGX.
+
+    This year, I am working with Assoc. Prof. Chang Ee-Chien as a research assistant and working on my Master's Dissertation.
+    Collaborating with Research Fellow Wu Pengfei, we have completed a research paper, where I conducted most of the implementation and experiment.
+    % The paper will be submitted to USENIX Security 2021.
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % \lettersection{Why have you chosen to apply to this particular university?}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    I have been happy to work with Assoc. Prof. Chang Ee-Chien for my NGNE Programme and my Master's Dissertation.
+    I am longing for furthering my study with his supervisation.
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % \lettersection{What are your strengths?}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % \textbf{
+    %     Demonstrate how you stand out from other candidates.
+    %     Highlight relevant projects, dissertations thesis or essays that demonstrate your academic skills and creativity.
+    %     Include IT skills, research techniques, awards, or relevant traveling/ study abroad experience.
+    % }
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % \lettersection{What are your transferable skills?}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % \textbf{
+    %     Be sure to emphasize transferable skills such as communication, teamwork, and time management skills.
+    %     Give examples of how you have demonstrated each of these with specific examples.
+    % }
+
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \lettersection{Career Plans}
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % \textbf{
+    %     It’s okay if you don’t know the exact career path you plan to take after completing your PhD.
+    %     Provide an idea of the direction you would like to take.
+    %     This demonstrates commitment and dedication to the program.
+    % }
+
+    After earning the PhD degree, I would like to join a university and dedicate myself to education, with the enthusiasm of sharing my knowledge and ideas to help students who don't know computers step into the world of programming and security.
 
 \end{cvletter}
 
