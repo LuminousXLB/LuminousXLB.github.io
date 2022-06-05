@@ -1,5 +1,5 @@
 baseURL: /
-title: Eureka Demo
+title: SHEN JIAMIN
 
 # Uncomment when not installing with Hugo Modules
 theme: eureka
@@ -9,8 +9,7 @@ theme: eureka
 
 paginate: 3
 copyright: >
-  &copy; 2021 <a href="https://www.wangchucheng.com/">WANG Chucheng</a> and <a
-  href="https://www.ruiqima.com/">MA Ruiqi</a>
+  &copy; 2022 Shen Jiamin
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
@@ -39,7 +38,7 @@ taxonomies:
   category: categories
   tag: tags
   series: series
-  author: authors
+  # author: authors
 
 build:
   useResourceCacheWhen: fallback
