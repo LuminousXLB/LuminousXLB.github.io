@@ -1,22 +1,22 @@
 ---
 title: Shen Jiamin
 draft: false
-role: Example Role
+role: PhD Student
 avatar: images/icon.png
 bio: Aenean vel bibendum quam. Aliquam at mollis quam. Proin efficitur.
 organization:
-  name: Example Organization
-  url: https://example.com/
+  name: National University of Singapore
+  url: https://www.comp.nus.edu.sg/
 social:
   - icon: envelope
     iconPack: fas
-    url: mailto:example@example.com
-  - icon: twitter
+    url: mailto:shen_jiamin@comp.nus.edu.sg
+  - icon: calendar-days
     iconPack: fab
-    url: https://example.com/
+    url: https://outlook.live.com/owa/calendar/a6e12e50-437f-4b95-813d-89e8182f415c/c8aff29b-fc70-4f39-9015-0f914ae823fb/cid-FBA813857DA87579/index.html
   - icon: github
     iconPack: fab
-    url: https://example.com/
+    url: https://github.com/LuminousXLB
 
 weight: 1
 widget:
