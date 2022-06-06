@@ -12,7 +12,7 @@ social:
     iconPack: fas
     url: mailto:shen_jiamin@comp.nus.edu.sg
   - icon: calendar-day
-    iconPack: fab
+    iconPack: fas
     url: https://outlook.live.com/owa/calendar/a6e12e50-437f-4b95-813d-89e8182f415c/c8aff29b-fc70-4f39-9015-0f914ae823fb/cid-FBA813857DA87579/index.html
   - icon: github
     iconPack: fab
