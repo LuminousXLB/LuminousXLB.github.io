@@ -1,5 +1,5 @@
 ---
-title: Shen Jiamin
+title: SHEN Jiamin
 draft: false
 role: PhD Student
 avatar: images/me.png

@@ -1,5 +1,5 @@
 baseURL: /
-title: SHEN JIAMIN
+title: SHEN Jiamin's Home
 
 # Uncomment when not installing with Hugo Modules
 theme: eureka
@@ -9,7 +9,7 @@ theme: eureka
 
 paginate: 15
 copyright: >
-  &copy; 2022 Shen Jiamin
+  &copy; 2022 SHEN Jiamin
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
