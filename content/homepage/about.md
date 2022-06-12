@@ -2,7 +2,7 @@
 title: Shen Jiamin
 draft: false
 role: PhD Student
-avatar: images/icon.png
+avatar: images/me.png
 bio: I don't know what I have. I don't know what I want.
 organization:
   name: National University of Singapore
