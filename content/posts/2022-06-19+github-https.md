@@ -51,4 +51,4 @@ Choosing "Paste an authentication token" will require you to generate a PAT by y
 
 ## Access a Repo
 
-Now, you can clone or push a repo via HTTPS and there won't be prompt for authentication.
+Now, you can clone or push a repo using `git` via HTTPS and there won't be prompt for authentication.
