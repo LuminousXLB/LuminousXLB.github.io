@@ -1,0 +1,6 @@
+{{- $printCSS := resources.Get "css/print.css" | postCSS (dict "config" "./assets/css/postcss.config.js" "inlineImports" true) | resources.ExecuteAsTemplate "css/print.css" . | minify | fingerprint "sha384" }}
+<link rel="stylesheet" href="{{ $printCSS.Permalink }}">
+
+
+{{- $printJS := resources.Get "js/print.js" | resources.ExecuteAsTemplate "js/print.js" . | minify | fingerprint "sha384" }}
+<script defer src="{{ $printJS.Permalink }}"></script>

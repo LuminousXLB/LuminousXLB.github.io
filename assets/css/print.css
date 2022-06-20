@@ -1,0 +1,18 @@
+@media print {
+    h2 {
+        margin-top: 0.5em !important;
+        margin-bottom: 0.2em !important;
+    }
+
+    h3,
+    p,
+    blockquote,
+    pre {
+        margin-top: 0.2em !important;
+        margin-bottom: 0.2em !important;
+    }
+
+    * {
+        font-size: 85%;
+    }
+}
