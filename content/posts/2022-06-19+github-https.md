@@ -8,7 +8,7 @@ tags:
 categories:
 series:
 date: '2022-06-19'
-lastmod: '2022-06-19'
+lastmod: '2022-06-20'
 draft: false
 ---
 
@@ -27,7 +27,7 @@ It can help to keep the token for HTTPS use.
 Execute the command below to login to your GitHub account and then following the interactive procedure.
 
 ``` console
-gh auth login
+gh auth login --scopes repo
 ```
 
 For the first two questions:
