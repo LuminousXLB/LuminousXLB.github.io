@@ -17,6 +17,9 @@ social:
   - icon: github
     iconPack: fab
     url: https://github.com/LuminousXLB
+  - icon: rss
+    iconPack: fas
+    url: index.xml
 
 weight: 1
 widget:
