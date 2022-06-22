@@ -1,6 +1,6 @@
 ---
 title: Use HTTPS? Login to Github Using gh
-description: Use gh to manage PAT for git HTTPS use.
+description: Use gh to keep PAT for git over HTTPS use.
 toc: false
 tags:
   - git
@@ -17,7 +17,7 @@ This blog talks about authentication using [GitHub cli](https://cli.github.com/)
 It can help to keep the token for HTTPS use.
 
 
-## Installation 
+## Installation
 
 - Install `gh` following their official [README](https://github.com/cli/cli#installation).
 - You'll need `git`, of course.
@@ -44,7 +44,7 @@ For the last question:
 ```
 
 Choosing "Login with a web browser" will open a web page for you to login.
-It doesn't matter if you don't have GUI on your system. 
+It doesn't matter if you don't have GUI on your system.
 Just press "Enter" and the tool will provide a url for you to open elsewhere.
 
 Choosing "Paste an authentication token" will require you to generate a PAT by yourself and paste it in the console.

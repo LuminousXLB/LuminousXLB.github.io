@@ -1,5 +1,6 @@
 ---
 title: Setup Printers from NUS SoC on Ubuntu
+description: It's strange that there's official instruction for Windows and macOS users, leaving Linux users to explore on their own.
 toc: false
 tags:
   - soc
@@ -14,7 +15,7 @@ draft: false
 
 Visit [Lexmark Website](https://support.lexmark.com/en_us/drivers-downloads.html) and search for the driver for the printer you want to use.
 You may find the device model from [dochub](https://dochub.comp.nus.edu.sg/cf/guides/printing/print-queues).
-Download the corresponding `deb` package and install it using 
+Download the corresponding `deb` package and install it using
 
 ``` console
 $ sudo apt install ./Lexmark-UPD-PPD-Files-[some-version-number].amd64.deb
@@ -36,14 +37,14 @@ $ sudo system-config-printer
     - Replace `psxddd` with the queue name you want.
 - Select "Set authentication details now" and fill in your **NUSNET ID** credentials.
     - Do not prefix your id with domain. It has been included in the url above.
-    - **Think twice** if you are not the only one with root access on the machine. 
+    - **Think twice** if you are not the only one with root access on the machine.
         The credentials will be stored in plaintext in a file that only root can read.
 - Click "Forward".
 
 ### Choose Driver
 
-- The driver you installed comes with a PPD file named `Lexmark_UPD_Series.ppd`. 
-    It might be in `/usr/share/ppd/Lexmark_PPD/`. 
+- The driver you installed comes with a PPD file named `Lexmark_UPD_Series.ppd`.
+    It might be in `/usr/share/ppd/Lexmark_PPD/`.
     If you cannot find it in your system, you can unpack the deb package using
     ``` console
     $ dpkg -X Lexmark-UPD-PPD-Files-1.0-05252022.amd64.deb <output-dir>
