@@ -4,3 +4,10 @@
 
 {{- $printJS := resources.Get "js/print.js" | resources.ExecuteAsTemplate "js/print.js" . | minify | fingerprint "sha384" }}
 <script defer src="{{ $printJS.Permalink }}"></script>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/element-plus@2/theme-chalk/dark/css-vars.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/element-plus@2/theme-chalk/base.min.css">
+
+{{- $ElAlertCSS := resources.Get "css/el-alert.min.css" | minify | fingerprint "sha384" }}
+<link rel="stylesheet" href="{{ $ElAlertCSS.Permalink }}">
